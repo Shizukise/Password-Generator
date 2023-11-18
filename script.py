@@ -54,10 +54,21 @@ def password_generator():
     return password
 
 
-print(password_generator())
 
+
+
+root1 = tk.Tk()
+
+def click_generator():
+    output = tk.Label(root1,text="oi")
+    output.pack()
+
+main_button = tk.Button(root1, text="Generate password")
+main_button.pack()
 
 #password generator function is done, now i need to assign commands on tkinter buttons and create the GUI
+
+root1.mainloop()
 
 
 
